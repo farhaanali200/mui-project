@@ -4,7 +4,7 @@ import {Settings,Add} from '@mui/icons-material';
 function App() {
 
     const BlueButton = styled(Button) (({theme}) =>({
-        backgroundColor: "skyblue",
+        backgroundColor: theme.palette.otherColor.main,
         color: "white",
         margin: 5,
         "&:hover": {
